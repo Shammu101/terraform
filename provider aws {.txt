@@ -1,0 +1,10 @@
+provider "aws" {
+region = "eu-west-1" 
+}
+resource "aws_instance" "one" {
+ami_id = "ami-0e309a5f3a6dd97ea"
+instance_type = "t2.micro"
+tags {
+Name = "terraserver"
+}
+}
