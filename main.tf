@@ -6,3 +6,5 @@ resource "aws_instance" "one" {
 ami = "ami-0a1f6cc8163bdcc75"
 instance_type = "t2.micro"
 }
+
+918233kig76tug
